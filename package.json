@@ -1,12 +1,12 @@
 {
   "name": "tachyons-floats",
   "version": "0.3.0",
-  "style": "floats.css",
-  "homepage": "http://mrmrs.io/tachyons-floats",
-  "description": "Performance based sass module.",
+  "style": "tachyons-floats.css",
+  "homepage": "http://github.com/mrmrs/tachyons-floats",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",
