@@ -1,58 +1,22 @@
-# TACHYONS-FLOATS
+# <%= module.name %>
+<%= module.version %>
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-floats
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-
-/*
-
-   FLOATS
-
-   1. Floated elements are automatically rendered as block level elements.
-      Setting floats to display inline will fix the double margin bug in
-      ie6. You know... just in case.
-
-   Legend
-
-   f = float
-   l = left
-   r = right
-   n = none
-
-*/
-
-
-
-.fl { float: left;  display: inline; }
-.fr { float: right; display: inline; }
-.fn { float: none; }
-
-@include break(not-small) {
-  .fl-ns { float: left; display: inline; }
-  .fr-ns { float: right;display: inline; }
-  .fn-ns { float: none; }
-}
-
-@include break(medium) {
-  .fl-m { float: left; display: inline; }
-  .fr-m { float: right;  display: inline; }
-  .fn-m { float: none; }
-}
-
-@include break(large) {
-  .fl-l { float: left; display: inline; }
-  .fr-l { float: right;  display: inline; }
-  .fn-l { float: none; }
-}
+<%= srcCSS %>
 ```
 
 ## Author

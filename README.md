@@ -1,17 +1,23 @@
-# TACHYONS-FLOATS
+# tachyons-floats
+1.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+Performance based css module.
 
 ## Install
 ```
 npm install --save-dev tachyons-floats
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-floats
+```
 
 ## The Code
 ```
+
+/* Media Query Variables */
 
 /*
 
@@ -21,12 +27,20 @@ or download the css on github and include in your project.
       Setting floats to display inline will fix the double margin bug in
       ie6. You know... just in case.
 
-   Legend
+   2. Don't forget to clearfix your floats with .cf
 
-   f = float
-   l = left
-   r = right
-   n = none
+   Base:
+     f = float
+
+   Modifiers:
+     l = left
+     r = right
+     n = none
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 
@@ -36,23 +50,24 @@ or download the css on github and include in your project.
 .fr { float: right; display: inline; }
 .fn { float: none; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .fl-ns { float: left; display: inline; }
   .fr-ns { float: right;display: inline; }
-  .fn-ns { float: none; }
+  .fn-ns { float: none!important; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .fl-m { float: left; display: inline; }
   .fr-m { float: right;  display: inline; }
   .fn-m { float: none; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em) {
   .fl-l { float: left; display: inline; }
   .fr-l { float: right;  display: inline; }
   .fn-l { float: none; }
 }
+
 ```
 
 ## Author
