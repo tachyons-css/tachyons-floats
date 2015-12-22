@@ -1,6 +1,4 @@
-
 /* Media Query Variables */
-
 /*
 
    FLOATS
@@ -25,27 +23,22 @@
      -l  = large
 
 */
-
-
-
-.fl { float: left;  display: inline; }
+.fl { float: left; display: inline; }
 .fr { float: right; display: inline; }
 .fn { float: none; }
-
 @media screen and (min-width: 48em) {
-  .fl-ns { float: left; display: inline; }
-  .fr-ns { float: right;display: inline; }
-  .fn-ns { float: none!important; }
+ .fl-ns { float: left; display: inline; }
+ .fr-ns { float: right; display: inline; }
+ .fn-ns { float: none !important; }
 }
-
 @media screen and (min-width: 48em) and (max-width: 64em) {
-  .fl-m { float: left; display: inline; }
-  .fr-m { float: right;  display: inline; }
-  .fn-m { float: none; }
+ .fl-m { float: left; display: inline; }
+ .fr-m { float: right; display: inline; }
+ .fn-m { float: none; }
+}
+@media screen and (min-width: 64em) {
+ .fl-l { float: left; display: inline; }
+ .fr-l { float: right; display: inline; }
+ .fn-l { float: none; }
 }
 
-@media screen and (min-width: 64em) {
-  .fl-l { float: left; display: inline; }
-  .fr-l { float: right;  display: inline; }
-  .fn-l { float: none; }
-}
