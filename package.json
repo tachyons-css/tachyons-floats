@@ -1,18 +1,17 @@
 {
   "name": "tachyons-floats",
-  "version": "2.0.2",
-  "style": "tachyons-floats.css",
-  "homepage": "http://github.com/tachyons-css/tachyons-floats",
+  "version": "2.0.3",
+  "style": "src/tachyons-floats.css",
   "description": "Performance based css module.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-floats.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-floats/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons",
+    "tachyons-src"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-floats",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",
