@@ -1,4 +1,4 @@
-# tachyons-floats 2.0.3
+# tachyons-floats 2.0.5
 
 Performance based css module.
 
