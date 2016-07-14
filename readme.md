@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-414 | 12 | 20
+418 | 12 | 20
 ---|---|---
 bytes | selectors | declarations
 
@@ -36,7 +36,7 @@ Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/
 
 ```sh
 $ npm i -g tachyons-cli
-$ tachyons path/to/css-file.css > dist/t.css
+$ tachyons-cli path/to/css-file.css > dist/t.css
 ```
 
 #### Using the CSS
@@ -81,8 +81,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
      -l  = large
 
 */
-.fl { float: left; display: inline; }
-.fr { float: right; display: inline; }
+.fl { float: left; _display: inline; }
+.fr { float: right; _display: inline; }
 .fn { float: none; }
 @media screen and (min-width: 48em) {
  .fl-ns { float: left; display: inline; }
