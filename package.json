@@ -1,6 +1,6 @@
 {
   "name": "tachyons-floats",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "style": "src/tachyons-floats.css",
   "description": "Performance based css module.",
   "keywords": [
