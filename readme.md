@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-418 | 12 | 20
+417 | 12 | 20
 ---|---|---
 bytes | selectors | declarations
 
@@ -102,17 +102,17 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .fl { float: left; _display: inline; }
 .fr { float: right; _display: inline; }
 .fn { float: none; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .fl-ns { float: left; display: inline; }
  .fr-ns { float: right; display: inline; }
  .fn-ns { float: none; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .fl-m { float: left; display: inline; }
  .fr-m { float: right; display: inline; }
  .fn-m { float: none; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .fl-l { float: left; display: inline; }
  .fr-l { float: right; display: inline; }
  .fn-l { float: none; }
