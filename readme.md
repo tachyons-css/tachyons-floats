@@ -1,10 +1,10 @@
-# tachyons-floats 3.0.0
+# tachyons-floats 3.0.5
 
 Performance based css module.
 
-#### Stats
+### Stats
 
-417 | 12 | 20
+415 | 12 | 20
 ---|---|---
 bytes | selectors | declarations
 
@@ -34,7 +34,7 @@ git clone git@github.com:tachyons-css/tachyons-floats.git
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
+#### Using with [Postcss](https://github.com/postcss/postcss)
 
 Import the css module
 
@@ -42,24 +42,24 @@ Import the css module
 @import "tachyons-floats";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
 $ tachyons path/to/css-file.css > dist/t.css
 ```
 
-#### Using the CSS
+#### Using the css
 
 ##### CDN
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-floats@3.0.0/css/tachyons-floats.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons-floats@3.0.5/css/tachyons-floats.min.css" />
 ```
 
 ##### Locally
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
+The built css is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
@@ -68,10 +68,10 @@ You can either cut and paste that css or link to it directly in your html.
 
 #### Development
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
 
-## The CSS
+## The css
 
 ```css
 /* Media Query Variables */
@@ -103,18 +103,18 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .fr { float: right; _display: inline; }
 .fn { float: none; }
 @media screen and (min-width: 30em) {
- .fl-ns { float: left; display: inline; }
- .fr-ns { float: right; display: inline; }
+ .fl-ns { float: left; _display: inline; }
+ .fr-ns { float: right; _display: inline; }
  .fn-ns { float: none; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
- .fl-m { float: left; display: inline; }
- .fr-m { float: right; display: inline; }
+ .fl-m { float: left; _display: inline; }
+ .fr-m { float: right; _display: inline; }
  .fn-m { float: none; }
 }
 @media screen and (min-width: 60em) {
- .fl-l { float: left; display: inline; }
- .fr-l { float: right; display: inline; }
+ .fl-l { float: left; _display: inline; }
+ .fr-l { float: right; _display: inline; }
  .fn-l { float: none; }
 }
 ```
